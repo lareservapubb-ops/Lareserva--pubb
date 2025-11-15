@@ -550,3 +550,21 @@ footer {
     font-size: 1.8rem;
   }
 }
+
+.videos {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.video-container video {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
